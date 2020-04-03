@@ -1,6 +1,15 @@
 # NyanCatJMP
 
-A game made for INT2215.
+A game made for *INT2215*
+
+[![License is MIT](https://img.shields.io/github/license/duongoku/NyanCatJMP)](./LICENSE)
+
+- [NyanCatJMP](#nyancatjmp)
+	- [Prerequisites](#prerequisites)
+	- [Setting up IDE](#setting-up-ide)
+	- [Compiling](#compiling)
+	- [Screenshot](#screenshot)
+	- [License](#license)
 
 ## Prerequisites
 
@@ -9,7 +18,7 @@ A game made for INT2215.
 - [SDL2](https://www.libsdl.org/download-2.0.php) Development Library with MinGW
 - [SDL_image](https://www.libsdl.org/projects/SDL_image/) Development Library with MinGW
 
-## Setting up Codeblocks
+## Setting up IDE
 
 - Go to **Settings -> Compiler -> Global compiler settings -> Linker settings** and fill the **Other linker options** box with ```-lmingw32 -lSDL2main -lSDL2 -lSDL2_image```
 
