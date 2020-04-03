@@ -10,6 +10,7 @@ A game made for *INT2215*
 	- [Setting up IDE](#setting-up-ide)
 	- [Compiling](#compiling)
 	- [Screenshot](#screenshot)
+	- [Credit](#credit)
 	- [License](#license)
 
 ## Prerequisites
@@ -46,6 +47,10 @@ A game made for *INT2215*
 ## Screenshot
 
 ![Screenshot_1](./images/screenshot_01.png)
+
+## Credit
+
+- The NyanCat sprites idea is from [here](http://www.nyan.cat).
 
 ## License
 
