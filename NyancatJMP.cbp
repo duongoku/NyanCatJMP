@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="NyancatJMP" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/NyancatJMP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/NyancatJMP" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Background.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Background.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Menu.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Menu.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Obstacle.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Obstacle.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Player.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Player.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="SNumber.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="SNumber.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Tail.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="Tail.h">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="functions.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="icon.rc">
+			<Option compilerVar="WINDRES" />
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/Clouds.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/NP_01.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/Obstacle_0.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/Obstacle_00.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/Obstacle_01.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/Obstacle_02.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/Obstacle_03.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/Obstacle_1.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/Obstacle_2.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/Obstacle_3.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/bg.pdn">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/bg.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/bg_tmp.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/menu.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/numbers.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/nyanCat_00.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/nyanCat_01.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/nyanCat_02.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/playAgain.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="images/uLose.png">
+			<Option target="Debug" />
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option target="Debug" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

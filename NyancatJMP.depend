@@ -1,0 +1,241 @@
+# depslib dependency file v1.0
+1585068103 source:c:\users\nguye\documents\uet\int 2215\NyancatJMP\background.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Background.h"
+	"functions.h"
+
+1585057202 c:\users\nguye\documents\uet\int 2215\NyancatJMP\background.h
+
+1585064522 source:c:\users\nguye\documents\uet\int 2215\NyancatJMP\player.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Player.h"
+	"functions.h"
+
+1585057566 c:\users\nguye\documents\uet\int 2215\NyancatJMP\player.h
+
+1585069160 source:c:\users\nguye\documents\uet\int 2215\NyancatJMP\main.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"SDL_Main.h"
+	"functions.h"
+
+1585057613 c:\users\nguye\documents\uet\int 2215\NyancatJMP\menu.h
+
+1585046915 c:\users\nguye\documents\uet\int 2215\NyancatJMP\obstacle.h
+
+1585057604 source:c:\users\nguye\documents\uet\int 2215\NyancatJMP\menu.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Menu.h"
+	"functions.h"
+
+1585047812 source:c:\users\nguye\documents\uet\int 2215\NyancatJMP\obstacle.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Obstacle.h"
+	"functions.h"
+
+1585023034 c:\users\nguye\documents\uet\int 2215\NyancatJMP\includes.h
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Player.h"
+	"Background.h"
+	"Menu.h"
+	"Obstacle.h"
+	"Snumber.h"
+	"functions.h"
+
+1585057669 c:\users\nguye\documents\uet\int 2215\NyancatJMP\snumber.h
+
+1585057672 source:c:\users\nguye\documents\uet\int 2215\NyancatJMP\snumber.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Snumber.h"
+	"functions.h"
+
+1585024857 c:\users\nguye\documents\uet\int 2215\NyancatJMP\functions.h
+
+1585070595 source:c:\users\nguye\documents\uet\int 2215\NyancatJMP\functions.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"functions.h"
+	"Player.h"
+	"Background.h"
+	"Menu.h"
+	"Obstacle.h"
+	"Snumber.h"
+	"Tail.h"
+
+1585070859 c:\users\nguye\documents\uet\int 2215\NyancatJMP\tail.h
+
+1585070470 source:c:\users\nguye\documents\uet\int 2215\NyancatJMP\tail.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Tail.h"
+	"functions.h"
+
+1585068103 source:c:\users\nguye\documents\uet\int 2215\nyancatjmp\background.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Background.h"
+	"functions.h"
+
+1585057202 c:\users\nguye\documents\uet\int 2215\nyancatjmp\background.h
+
+1585024857 c:\users\nguye\documents\uet\int 2215\nyancatjmp\functions.h
+
+1585129247 source:c:\users\nguye\documents\uet\int 2215\nyancatjmp\functions.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"functions.h"
+	"Player.h"
+	"Background.h"
+	"Menu.h"
+	"Obstacle.h"
+	"Snumber.h"
+	"Tail.h"
+
+1585131017 c:\users\nguye\documents\uet\int 2215\nyancatjmp\player.h
+
+1585057613 c:\users\nguye\documents\uet\int 2215\nyancatjmp\menu.h
+
+1585046915 c:\users\nguye\documents\uet\int 2215\nyancatjmp\obstacle.h
+
+1585057669 c:\users\nguye\documents\uet\int 2215\nyancatjmp\snumber.h
+
+1585129785 c:\users\nguye\documents\uet\int 2215\nyancatjmp\tail.h
+
+1585071682 source:c:\users\nguye\documents\uet\int 2215\nyancatjmp\main.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"SDL_Main.h"
+	"functions.h"
+
+1585057604 source:c:\users\nguye\documents\uet\int 2215\nyancatjmp\menu.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Menu.h"
+	"functions.h"
+
+1585047812 source:c:\users\nguye\documents\uet\int 2215\nyancatjmp\obstacle.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Obstacle.h"
+	"functions.h"
+
+1585129434 source:c:\users\nguye\documents\uet\int 2215\nyancatjmp\player.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Player.h"
+	"functions.h"
+
+1585057672 source:c:\users\nguye\documents\uet\int 2215\nyancatjmp\snumber.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Snumber.h"
+	"functions.h"
+
+1585070470 source:c:\users\nguye\documents\uet\int 2215\nyancatjmp\tail.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Tail.h"
+	"functions.h"
+
+1585072175 source:c:\users\nguye\documents\uet\int 2215\nyancatjmp\icon.rc
+
+1585068103 source:c:\users\nguye\documents\github\nyancatjmp\background.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Background.h"
+	"functions.h"
+
+1585057202 c:\users\nguye\documents\github\nyancatjmp\background.h
+
+1585024857 c:\users\nguye\documents\github\nyancatjmp\functions.h
+
+1585139472 source:c:\users\nguye\documents\github\nyancatjmp\functions.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"functions.h"
+	"Player.h"
+	"Background.h"
+	"Menu.h"
+	"Obstacle.h"
+	"Snumber.h"
+	"Tail.h"
+
+1585131017 c:\users\nguye\documents\github\nyancatjmp\player.h
+
+1585057613 c:\users\nguye\documents\github\nyancatjmp\menu.h
+
+1585046915 c:\users\nguye\documents\github\nyancatjmp\obstacle.h
+
+1585057669 c:\users\nguye\documents\github\nyancatjmp\snumber.h
+
+1585129785 c:\users\nguye\documents\github\nyancatjmp\tail.h
+
+1585072175 source:c:\users\nguye\documents\github\nyancatjmp\icon.rc
+
+1585071682 source:c:\users\nguye\documents\github\nyancatjmp\main.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"SDL_Main.h"
+	"functions.h"
+
+1585057604 source:c:\users\nguye\documents\github\nyancatjmp\menu.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Menu.h"
+	"functions.h"
+
+1585047812 source:c:\users\nguye\documents\github\nyancatjmp\obstacle.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Obstacle.h"
+	"functions.h"
+
+1585129434 source:c:\users\nguye\documents\github\nyancatjmp\player.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Player.h"
+	"functions.h"
+
+1585057672 source:c:\users\nguye\documents\github\nyancatjmp\snumber.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Snumber.h"
+	"functions.h"
+
+1585070470 source:c:\users\nguye\documents\github\nyancatjmp\tail.cpp
+	<bits/stdc++.h>
+	<SDL_image.h>
+	<SDL.h>
+	"Tail.h"
+	"functions.h"
+
