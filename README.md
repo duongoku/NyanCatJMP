@@ -4,6 +4,7 @@ A game made for *INT2215*
 
 [![License is MIT](https://img.shields.io/github/license/duongoku/NyanCatJMP)](./LICENSE)
 
+
 - [NyanCatJMP](#nyancatjmp)
 	- [Prerequisites](#prerequisites)
 	- [Setting up IDE](#setting-up-ide)
