@@ -51,6 +51,7 @@ A game made for *INT2215*
 ## Credit
 
 - The NyanCat sprites idea is from [here](http://www.nyan.cat).
+- All other sprites, backgrounds are drawn by me.
 
 ## License
 
