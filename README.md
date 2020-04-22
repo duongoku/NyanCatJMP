@@ -10,6 +10,7 @@ A game made for *INT2215*
 	- [Setting up IDE](#setting-up-ide)
 	- [Compiling](#compiling)
 	- [Screenshot](#screenshot)
+	- [Side Note](#side-note)
 	- [Credit](#credit)
 	- [License](#license)
 
@@ -47,6 +48,9 @@ A game made for *INT2215*
 ## Screenshot
 
 ![Screenshot_1](./images/screenshot_01.png)
+
+## Side Note
+- No sound? I don't want to make this thing heavier so I didn't add it(you can turn on some of your favorite tracks while playing lol).
 
 ## Credit
 

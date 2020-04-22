@@ -47,7 +47,7 @@ bool isCollide(SDL_Rect rectOne, SDL_Rect rectTwo){
 }
 
 void beginGame(SDL_Window * window, SDL_Renderer * renderTarget){
-    int windowHeight=300, windowWidth=600;
+    // int windowHeight=300, windowWidth=600;
     float currTime=SDL_GetTicks(), prevTime, deltaTime;
     const Uint8 *keyState;
     SDL_Event ev;
@@ -59,7 +59,7 @@ void beginGame(SDL_Window * window, SDL_Renderer * renderTarget){
     while(true){
         if(SDL_PollEvent(&ev) != 0) if(ev.type == SDL_QUIT) sdlQuit(window, renderTarget);
         keyState=SDL_GetKeyboardState(NULL);
-        if(keyState[SDL_SCANCODE_SPACE] || keyState[SDL_SCANCODE_UP]) break;
+        if(keyState[SDL_SCANCODE_SPACE] || keyState[SDL_SCANCODE_UP] || ev.type == SDL_MOUSEBUTTONDOWN) break;
 
         prevTime=currTime;
         currTime=SDL_GetTicks();
@@ -74,9 +74,9 @@ void beginGame(SDL_Window * window, SDL_Renderer * renderTarget){
 }
 
 void playGame(SDL_Window * window, SDL_Renderer * renderTarget){
-    int playerFrameCnt=12;
     int obsWidth, mxdist=400, mndist=300;
-    int windowHeight=300, windowWidth=600;
+    // int windowHeight=300;
+    int windowWidth=600;
     int tmpNum;
     float scrollAcc=0.015;
     float currTime=SDL_GetTicks(), prevTime, deltaTime;
@@ -199,7 +199,7 @@ bool endGame(SDL_Window * window, SDL_Renderer * renderTarget){
     SDL_Surface * surface;
     SDL_Rect cropRect;
     SDL_Rect positionRect;
-    const Uint8 *keyState;
+    // const Uint8 *keyState;
 
     surface = IMG_Load(uLoseSprite.c_str());
     texture = SDL_CreateTextureFromSurface(renderTarget, surface);
