@@ -2,29 +2,24 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="SNumber.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="icon.rc" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="606" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="main.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="-2" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="833" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="Player.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="315" topLine="0" />
+			<Cursor1 position="39" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Obstacle.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="131" topLine="0" />
+			<Cursor1 position="640" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="functions.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="main.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="2" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="5929" topLine="165" />
+			<Cursor1 position="211" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="Player.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="218" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="Background.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -32,9 +27,9 @@
 			<Cursor1 position="151" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Menu.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="functions.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="65" topLine="0" />
+			<Cursor1 position="1684" topLine="46" />
 		</Cursor>
 	</File>
 	<File name="Tail.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -42,14 +37,9 @@
 			<Cursor1 position="802" topLine="13" />
 		</Cursor>
 	</File>
-	<File name="Player.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="SNumber.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="1589" topLine="43" />
-		</Cursor>
-	</File>
-	<File name="Obstacle.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="232" topLine="0" />
+			<Cursor1 position="137" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="SNumber.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -57,14 +47,29 @@
 			<Cursor1 position="42" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="Background.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Obstacle.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="428" topLine="0" />
+			<Cursor1 position="232" topLine="0" />
 		</Cursor>
 	</File>
-	<File name="icon.rc" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="Player.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="39" topLine="0" />
+			<Cursor1 position="387" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Menu.cpp" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="65" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Background.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="144" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="Tail.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="448" topLine="0" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>

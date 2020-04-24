@@ -86,6 +86,7 @@ void playGame(SDL_Window * window, SDL_Renderer * renderTarget){
     bool actionLoop=true;
     SDL_Event ev;
     SDL_Rect tmpRect;
+    int totalObs = 16, obsChunk = 3;
 
     Player p1(renderTarget);
     Tail tl1(renderTarget);
@@ -96,10 +97,10 @@ void playGame(SDL_Window * window, SDL_Renderer * renderTarget){
 
     obs[0].setX((rand()%windowWidth) + windowWidth);
 
-    for(int i=1;i<16;i++){
+    for(int i=1;i<totalObs;i++){
         obs[i].setX(obs[i-1].getX()+(rand()%(mxdist-mndist+1)+mndist)*(1+obs[i].getScrollSpeed()));
         //startoff with no chunks so that it'd be easier to pass
-        // tmpNum=rand()%3;
+        // tmpNum=rand()%obsChunk;
         // for(int j=0;(j<tmpNum)&&(i<15);j++){
         //     i++;
         //     obs[i].setX(obs[i-1].getX()+obsWidth);
@@ -126,7 +127,7 @@ void playGame(SDL_Window * window, SDL_Renderer * renderTarget){
         if(tempScore>scoreThreshold){
             tempScore=0;
             bg1.setScrollSpeed(bg1.getScrollSpeed()+scrollAcc);
-            for(int id=0;id<16;id++){
+            for(int id=0;id<totalObs;id++){
                 obs[id].setScrollSpeed(bg1.getScrollSpeed());
             }
             tl1.icrW();
@@ -139,7 +140,7 @@ void playGame(SDL_Window * window, SDL_Renderer * renderTarget){
         }
 
         bg1.Update(deltaTime);
-        for(int i=0;i<16;i++) obs[i].Update(deltaTime);
+        for(int i=0;i<totalObs;i++) obs[i].Update(deltaTime);
         p1.Update(deltaTime);
         tl1.Update(deltaTime);
         tl1.setY(p1.getRect().y);
@@ -150,31 +151,31 @@ void playGame(SDL_Window * window, SDL_Renderer * renderTarget){
         bg1.Draw(renderTarget);
         // we do this from obs[2] to ensure that all chunks of obstacle
         // are out of the screen before the replacement
-        if(obs[2].getX()<(-obsWidth)){
-            // for(int i=0;i<16;i++){
+        if(obs[obsChunk-1].getX()<(-obsWidth)){
+            // for(int i=0;i<totalObs;i++){
             //     std::cout<<obs[i].getX()<<" ";
             // }
             // std::cout<<std::endl;
-            for(int i=0;i<13;i++){
-                obs[i]=obs[i+3];
+            for(int i=0;i<totalObs-obsChunk;i++){
+                obs[i]=obs[i+obsChunk];
             }
-            for(int i=13;i<16;i++){
+            for(int i=totalObs-obsChunk;i<totalObs;i++){
                 obs[i].setNewTexture(renderTarget);
                 obs[i].setX(obs[i-1].getX()+(rand()%(mxdist-mndist+1)+mndist)*(1+obs[i].getScrollSpeed()));
 
-                tmpNum=rand()%3;
-                for(int j=0;(j<tmpNum)&&(i<15);j++){
+                tmpNum=rand()%obsChunk;
+                for(int j=0;(j<tmpNum)&&(i<totalObs-1);j++){
                     i++;
                     obs[i].setNewTexture(renderTarget);
                     obs[i].setX(obs[i-1].getX()+obsWidth);
                 }
             }
-            // for(int i=0;i<16;i++){
+            // for(int i=0;i<totalObs;i++){
             //     std::cout<<obs[i].getX()<<" ";
             // }
             // std::cout<<std::endl;
         }
-        for(int i=0;i<16;i++){
+        for(int i=0;i<totalObs;i++){
             tmpNum=p1.getHitNum();
             for(int j=0;j<tmpNum;j++){
                 tmpRect = p1.getHitBox(j);
@@ -250,7 +251,6 @@ bool endGame(SDL_Window * window, SDL_Renderer * renderTarget){
                 ev.motion.y > positionRect.y && ev.motion.y < (positionRect.y + positionRect.h)) return false;
             }
         }
-        SDL_Delay(100);
     }
     return true;
 }
